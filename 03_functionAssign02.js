@@ -1,3 +1,5 @@
+
+
 function bankDetails(bankName, accountNum, location, PIN)
 {
    var bank= bankName;
