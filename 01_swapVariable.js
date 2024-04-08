@@ -16,3 +16,6 @@ console.log(pinCode);
 pinCode  = "112233"; // Variable update
 
 var pinCode = "445533"; // Variable re-declaration
+
+
+console.log("Swapping");
