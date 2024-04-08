@@ -2,6 +2,7 @@ var City;
 City="Pune";
 console.log(City);
 console.log("My city name is",City);
+console.log("==========================");
 
 console.log("What is undefined ?");
 var firstName; 
