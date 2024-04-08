@@ -28,3 +28,7 @@ console.log("=======3=======");
  console.log("Gender :",gender);
  var isMarried=false;
  console.log("IsMarried:",isMarried);
+
+
+
+ console.log("1st assign");
