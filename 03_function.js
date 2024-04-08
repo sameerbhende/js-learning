@@ -1,30 +1,39 @@
-//Function with no arguments and no return value
-function show(){
-    console.log("Inside show function");
+// 1. Function with no argument with no return value
+
+function show() {
+    console.log("Inside Show Function");
+    
 }
 show();
 
-//1. Function with arguments and no return value
-function add(n1, n2, n3){
-    console.log("Arguments: ", n1, n2, n3);
-    var result = n1+n2+n3;
-    console.log("Addition is: ", result);
-}
-add(3, 6, 7);
-add(99.89, 67, 456789);
-add(6, 7);
-add(16, 9, 90, 44);
-add("Hi", "Good", "Morning")
+// 2. Function with  argument and no return value
 
-//3. Function with arguments and return value
-function subtract(numOne, numTwo){
-    console.log("======== subtraction ================");
-    console.log("Arguments: ", numOne,numTwo );
-    var result = numOne - numTwo;
-    return result;
-}
-var returnValue = subtract(9, 4);
-console.log("Result of subtraction is: ", returnValue);
 
-var returnValue = subtract(99, 42);
-console.log("Result of subtraction is: ", returnValue);
+function add(n1,n2,n3){
+
+console.log("Arguments:", n1,n2,n3);
+var result=n1+n2+n3;
+console.log("Addition:", result);
+}
+
+add(3,6,7);
+add(99.90,456,5674);
+add(6,7);
+add("Hi", " Good", " Morning");
+
+// 3. Function with  argument and with return value
+
+function substract(n1,n2){
+
+ console.log("=======Substraction=======");
+ console.log("Arguments:", n1,n2); 
+ var result=n1-n2;
+ return result;  
+
+}
+
+var returnValue=substract(9,4);
+console.log("Substraction of two number:",returnValue);
+                                                              // redecalaration of the variable
+substract(99,42);
+console.log("Substraction of two number:",returnValue);
